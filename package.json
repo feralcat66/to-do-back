@@ -30,9 +30,11 @@
   },
   "homepage": "https://github.com/feralcat66/to-do-back#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jest": "^25.1.0",
+    "morgan": "^1.9.1",
     "pg": "^7.18.2",
     "superagent": "^5.2.2",
     "supertest": "^4.0.2"
