@@ -91,9 +91,6 @@ app.post('/api/todos', async (req, res) => {
         // use req.body.task to build a sql query to add a new todo
         // we also return the new todo
 
-
-
-
         // respond to the client request with the newly created todo
         res.json(result.rows[0]);
     }
